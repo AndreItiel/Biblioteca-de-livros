@@ -1,0 +1,21 @@
+Relatório de Funcionalidades Implementadas
+1. Cadastro de Livros e Usuários:
+O sistema permite o cadastro de novos livros e usuários, armazenando as informações necessárias como título, autor e ISBN dos livros, além do nome, e-mail e ID dos usuários.
+
+2. Empréstimo e Devolução de Livros:
+Os usuários podem emprestar livros disponíveis na biblioteca. O sistema verifica a disponibilidade do livro antes de permitir o empréstimo.
+Os livros emprestados podem ser devolvidos, atualizando seu status para disponível.
+
+3. Listagem de Livros:
+O sistema fornece uma opção para listar todos os livros cadastrados, mostrando informações detalhadas sobre cada um, incluindo seu status (disponível ou não).
+
+4. Persistência de Dados:
+É possível salvar a lista de livros em um arquivo de texto, garantindo que as informações possam ser recuperadas posteriormente.
+
+5. Estrutura de Classes:
+O sistema é modular, utilizando várias classes para representar livros, usuários, empréstimos e a biblioteca em si, o que facilita a manutenção e extensão do código.
+
+Melhorias Futuras
+Implementação de um sistema de controle de multas para devoluções em atraso.
+Interface gráfica para uma melhor interação com o usuário.
+Armazenamento em banco de dados para maior robustez e escalabilidade
